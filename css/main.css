@@ -2,14 +2,15 @@ a {
     color: white !important;
 }
 
-.nav-item{
-    border: none;
+a.nav-link:hover {
+    box-shadow: 0 2px #3A468C !important;
 }
 
-.nav-link:hover {
-    box-shadow: 0 2px #3A468a;
+ul.nav-pill >.nav-item > .active{
+    box-shadow: 0 2px #3A468C !important;
+    color: #3A468a !important;
 }
 
-.nav-link:active {
-    box-shadow: 0 2px #3A468C;
+ul.nav-pill >.nav-item >.nav-link{
+    color: #6c757d;
 }
