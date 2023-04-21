@@ -6,10 +6,10 @@ a {
     border: none;
 }
 
-.nav-item:hover {
+.nav-link:hover {
     box-shadow: 0 2px #3A468a;
 }
 
-.nav-item:active {
+.nav-link:active {
     box-shadow: 0 2px #3A468C;
 }
