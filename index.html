@@ -153,7 +153,104 @@
     <section id="programacao" class="py-5">
         <div class="container">
             <h2 class="fw-bold mb-4 text-center">Programação</h2>
-            <div class="table-responsive">
+            <ul class="nav nav-pill mb-3 nav-fill fw-bold">
+                <li class="nav-item border-transparent">
+                    <a class="nav-link active text-dark" id="pills-manha-tab" data-bs-toggle="tab" href="#tab-manha" role="tab" aria-controls="tab-home" aria-selected="true">Manhã</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark " id="pills-almoco-tab" data-bs-toggle="tab" href="#tab-almoco" role="tab" aria-controls="tab-almoco" aria-selected="false">Almoço</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" id="pills-tarde-tab" data-bs-toggle="tab" href="#tab-tarde" role="tab" aria-controls="tab-tarde" aria-selected="false">Tarde</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" id="pills-noite-tab" data-bs-toggle="tab" href="#tab-noite" role="tab" aria-controls="tab-noite" aria-selected="false">Noite</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tab-content">
+                <div class="tab-pane show fade active mx-6" id="tab-manha" role="tabpanel" aria-labelledby="pills-manha-tab"> 
+                    <div class="py-6 d-block">
+                        <h5 class="fw-semibold">
+                            Inicio do Credenciamento
+                        </h5>
+                        <div class="fw-medium py-2 px-2">Descrição</div>
+                        <div class="flex items-center text-gray-500 py-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/></svg> 7:30</div>
+                    </div>
+                    <hr>
+                    <div class="py-6">
+                        <h5 class="fw-semibold">
+                            Abertura
+                        </h5>
+                        <div class="fw-medium py-2 px-2">Descrição</div>
+                        <div class="flex items-center text-gray-500 py-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/></svg> 8:30 - 9:00</div>
+                    </div>
+                    <hr>
+                    <div class="py-6">
+                        <h5 class="fw-semibold">
+                            Quebrando mitos do Java
+                        </h5>
+                        <div class="fw-medium py-2 px-2 wrap">Muita coisa que ouviu sobre Java é mito! Vamos listá-los e discutí-los em uma palestra interativa!</div>
+                        <div class="flex items-center text-gray-500 py-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/></svg> 9:00 - 10:00</div>
+                    </div>
+                    <hr>
+                    <div class="py-6">
+                        <h5 class="fw-semibold">
+                            4 Conceitos de arquiterura que todo desenvolvedor precisa conhecer
+                        </h5>
+                        <div class="fw-medium py-2 px-2">Descrição</div>
+                        <div class="flex items-center text-gray-500 py-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/></svg> 10:00 - 11:00</div>
+                    </div>
+                    <hr>
+                    <div class="py-6">
+                        <h5 class="fw-semibold">
+                            Palestra Dorival
+                        </h5>
+                        <div class="fw-medium py-2 px-2">Descrição</div>
+                        <div class="flex items-center text-gray-500 py-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/></svg> 11:00 - 12:00</div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab-almoco" role="tabpanel" aria-labelledby="pills-almoco-tab"> 
+                    <div class="py-6">
+                        <h5 class="fw-semibold">
+                           Almoço
+                        </h5>
+                        <div class="fw-medium py-2 px-2">Descrição</div>
+                        <div class="flex items-center text-gray-500 py-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/></svg> 12:00 - 14:00</div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab-tarde"  role="tabpanel" aria-labelledby="pills-tarde-tab"> 
+                    <div class="py-6">
+                        <h5 class="fw-semibold">
+                           Lab ORACLE - Como fazer deploy de uma aplicação Java na nuvem
+                        </h5>
+                        <div class="fw-medium py-2 px-3 wrap">Conheça a ferramenta para orquestração de containers da Oracle e saiba como podemos deployar uma aplicação java em kubernetes utilizando a console da Oracle Cloud.</div>
+                        <div class="flex items-center text-grey-500 py-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/></svg>
+                          14:00 - 17:00
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab-noite"  role="tabpanel" aria-labelledby="pills-noite-tab"> 
+                    noite 
+                </div>
+            </div>
+            
+            <!-- <div class="table-responsive">
                 <table class="table">
                     <thead>
                         <tr>
@@ -180,7 +277,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- Inscrição Section -->
@@ -236,6 +333,8 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  </body>
 </body>
 
 </html>

@@ -1,3 +1,15 @@
 a {
     color: white !important;
 }
+
+.nav-item{
+    border: none;
+}
+
+.nav-item:hover {
+    box-shadow: 0 2px #3A468a;
+}
+
+.nav-item:active {
+    box-shadow: 0 2px #3A468C;
+}
