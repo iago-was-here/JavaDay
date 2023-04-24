@@ -12,5 +12,11 @@ ul.nav-pill >.nav-item > .active{
 }
 
 ul.nav-pill >.nav-item >.nav-link{
-    color: #6c757d;
+    color: #a0a2a3;
+    box-shadow: 0 1px #a0a2a3;
+}
+
+ul.nav-pill >.nav-item >.nav-link:hover{
+    color: #828485;
+    box-shadow: 0 2px #a0a2a3;
 }
