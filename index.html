@@ -5,16 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaDay</title>
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg" style="background-color: #D85A34;">
+    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #D85A34;">
         <div class="container" style="color: white;">
-            <a class="navbar-brand" href="#">JavaDay</a>
+            <a class="navbar-brand" href="#"><img src="imgs/logo-navbar.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,7 +35,7 @@
                         <a class="nav-link" href="#programacao">Programação</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#inscricao">Inscrição</a>
+                        <a class="nav-link" href="#local">Como chegar</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#apoio">Apoio</a>
@@ -46,13 +50,16 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <h1 class="fw-bold mb-3">Java Day</h1>
-                    <p class="lead">1° Evento do IF Sul de Minas - Campus Poços de Caldas sobre tecnologias e técnicas
-                        de desenvolvimento no ecosistema Java.</p>
-                    <a href="#inscricao" class="btn" style="background-color: #3A468C;">Inscreva-se já</a>
+                    <img src="imgs/arte-com-data-evento.jpeg" alt="Foto do evento" class="img-fluid rounded">
                 </div>
                 <div class="col-md-6">
-                    <img src="imgs/logo-lobo-azul-com-logo-if.jpeg" alt="Foto do evento" class="img-fluid rounded">
+                    <p class="lead">
+                        Bem-vindo ao 1° JavaDay do IF Sul de Minas - Campus Poços de Caldas! Evento sobre tecnologias e
+                        técnicas de desenvolvimento no ecosistema Java. Oportunidade única para aprimorar
+                        suas habilidades, construir conexões com outros profissionais e aprofundar seus conhecimentos.
+                    </p>
+                    <p class="lead">Junte-se a nós e faça parte dessa experiência incrível!</p>
+                    <a href="#inscricao" class="btn" style="background-color: #3A468C;">Inscreva-se já</a>
                 </div>
             </div>
         </div>
@@ -120,9 +127,23 @@
                     <div class="card mb-4">
                         <img src="imgs/carrijo.jpeg" class="card-img-top" alt="Foto do palestrante">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Fulano de Tal</h5>
-                            <p class="card-text">Desenvolvedor Java há 10 anos, com ampla experiência em
-                                projetos de grande porte.</p>
+                            <h5 class="card-title fw-bold">Pedro Carrijo</h5>
+                            <p class="card-text">"Muito prazer, sou o Pedro Carrijo e meu interesse por estudar
+                                tecnologia surgiu aos 11 anos de idade logo após eu ter passado por um transplante de
+                                fígado no qual era o único tratamento de saúde para o problema com o qual eu nasci.
+                                Durante a recuperação dessa minha cirurgia, comecei a pesquisar sobre programação e
+                                desde então nunca mais parei, passei por diversos eventos mostrando o que eu estava
+                                fazendo, conhecendo novas pessoas e então aos 14 anos de idade iniciei meu primeiro
+                                emprego na área.
+                                11 meses depois a Oracle me fez uma proposta e é onde eu me encontro tabalhando hoje.
+                                Iniciei na Oracle ainda com os 14 anos de idade (quase 15), apaixonado por tecnologia,
+                                experiência na construção aplicações de blockchain, chatbots, realidade aumentada, iot,
+                                android, entre outras..
+
+                                Atualmente como:
+                                - Cloud Solution Engineer.
+
+                                Formado em Engenharia de Software na PUC Campinas. "</p>
                         </div>
                     </div>
                 </div>
@@ -130,9 +151,14 @@
                     <div class="card mb-4">
                         <img src="imgs/dorival.jpeg" class="card-img-top" alt="Foto do palestrante">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Beltrano da Silva</h5>
-                            <p class="card-text">Especialista em arquitetura de sistemas, com ampla
-                                experiência em projetos de integração.</p>
+                            <h5 class="card-title fw-bold">Dorival Querino da Silva</h5>
+                            <p class="card-text">Há mais de 12 anos vem ajudando empresas a desenvolver sistemas Java,
+                                utilizando os frameworks mais populares do mercado. Entusiasta por soluções de clould e
+                                inovação, tem um canal no YouTube (cloud4java) onde ajuda desenvolvedores a trabalhar
+                                com cloud e aumentar sua relevância no mercado. Participante ativo na comunidade Jornada
+                                Colaborativa onde atua como escritor, palestrante e organizador, tendo participado como
+                                coautor e organizador na escrita de 3 livros (Jornada Api na Prática, Jornada
+                                Microsserviços e Jornada Java).</p>
                         </div>
                     </div>
                 </div>
@@ -183,44 +209,28 @@
             </div>
         </div>
     </section>
-    <!-- Inscrição Section -->
-    <section id="inscricao" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="fw-bold mb-4 text-center">Inscrição</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="nome" class="form-label">Nome Completo</label>
-                            <input type="text" class="form-control" id="nome" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Endereço de Email</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="telefone" class="form-label">Telefone</label>
-                            <input type="tel" class="form-control" id="telefone" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="empresa" class="form-label">Empresa</label>
-                            <input type="text" class="form-control" id="empresa" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="cargo" class="form-label">Cargo</label>
-                            <input type="text" class="form-control" id="cargo" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Inscrever-se</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Inscrição Section -->
+    <!-- Apoiadores Section -->
     <section id="apoio" class="py-5 bg-light">
         <div class="container">
             <h2 class="fw-bold mb-4 text-center">Apoiadores</h2>
 
+        </div>
+    </section>
+    <!-- Como chegar Section -->
+    <section id="local" class="py-5 bg-light align-items-center">
+        <div class="container d-flex justify-content-center">
+            <div class="box">
+                <div class="local">
+                    <p style="color:red">Como chegar</p>
+                    <h2 class="fw-bold mb-4 text-center">Local do Evento</h2>
+                    <p>Av. Dirce Pereira Rosa, 300 - Jardim Esperanca <br> Poços de Caldas - MG, 37713-100</p>
+                    <br>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.53147527925!2d-46.56139918505347!3d-21.837026285566107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9c31ca5676ead%3A0xf28692a7a0a7e129!2sIFSULDEMINAS%20-%20CAMPUS%20PO%C3%87OS%20DE%20CALDAS!5e0!3m2!1spt-BR!2sbr!4v1682039238157!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+            </div>
         </div>
     </section>
     <!-- Rodapé -->
