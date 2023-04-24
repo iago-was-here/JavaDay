@@ -22,9 +22,11 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-light sticky-top navbar-expand-lg bg-light">
+    <nav class="navbar navbar-light fixed-top navbar-expand-lg bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="imgs/logo-navbar.png" alt=""></a>
+            <a class="navbar-brand text-secondary" href="#"><img src="imgs/javaday.png" class="img-fluid"alt="">
+                <!-- <span class="text-secondary fw-bold">JAVA</span><span class="span-border-text text-white">DAY</span> -->
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,20 +34,21 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto nav-fill w-100 ">
                     <li class="nav-item ">
-                        <a class="nav-link fw-medium text-muted" href="#sobre">Sobre</a>
+                        <a class="nav-link text-muted" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-medium text-muted" href="#palestrantes">Palestrantes</a>
+                        <a class="nav-link text-muted" href="#palestrantes">Palestrantes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-medium text-muted" href="#programacao">Programação</a>
+                        <a class="nav-link text-muted" href="#programacao">Programação</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-medium text-muted" href="#local">Como chegar</a>
+                        <a class="nav-link text-muted" href="#apoio">Parceiros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-medium text-muted" href="#apoio">Parceiros</a>
+                        <a class="nav-link text-muted" href="#local">Como chegar</a>
                     </li>
+                    
                     <li class="nav-item">
                         
                         <button type="button" class="btn btn-secondary">
@@ -58,7 +61,7 @@
 
     <!-- Header Section -->
     <header id="header" class="py-5 bg-light">
-        <div class="container">
+        <div class="container pt-3">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <img src="imgs/arte-com-data-evento.jpeg" alt="Foto do evento" class="img-fluid rounded">
@@ -78,7 +81,7 @@
 
     <!-- Sobre Section -->
     <section id="sobre" class="py-5">
-        <div class="container">
+        <div class="container pt-3">
             <div class="row">
                 <div class="col-md-4">
                     <h2 class="fw-bold mb-4">Sobre o evento</h2>
@@ -130,8 +133,8 @@
         </div>
     </section>
     <!-- Palestrantes Section -->
-    <section id="palestrantes" class="py-5 bg-light">
-        <div class="container">
+    <section id="palestrantes" class="py-5 bg-light ">
+        <div class="container pt-3">
             <h2 class="fw-bold mb-4 text-center">Palestrantes</h2>
             <div class="row">
                 <div class="col-md-4">
@@ -188,7 +191,7 @@
     </section>
     <!-- Programação Section -->
     <section id="programacao" class="py-5">
-        <div class="container">
+        <div class="container pt-3">
             <h6 class="d-block text-secondary fw-bold text-center">O que vem por ai?</h6>
             <h2 class="fw-bold mb-4 text-center">Programação</h2>
             <ul class="nav mb-3 nav-fill nav-pill fw-bold justify-content-center">
@@ -300,7 +303,7 @@
     </section>
     <!-- Apoiadores Section -->
     <section id="apoio" class="py-5 bg-light">
-        <div class="container">
+        <div class="container pt-3">
             <h2 class="fw-bold mb-4 text-center">Parceiros</h2>
             <div class="card border-0 mx-auto mb-3">  
                 <h3 class="fw-semibold my-3 text-center">Platina</h3>
@@ -366,10 +369,10 @@
     </section>
     <!-- Como chegar Section -->
     <section id="local" class="py-5 bg-light align-items-center">
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex justify-content-center pt-3">
             <div class="box">
                 <div class="local">
-                    <p style="color:red">Como chegar</p>
+                    <h6 class="d-block text-secondary fw-bold text-center">Como chegar</h6>
                     <h2 class="fw-bold mb-4 text-center">Local do Evento</h2>
                     <p>Av. Dirce Pereira Rosa, 300 - Jardim Esperanca <br> Poços de Caldas - MG, 37713-100</p>
                     <br>
