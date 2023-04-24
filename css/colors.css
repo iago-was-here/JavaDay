@@ -1,0 +1,20 @@
+.text-primary{
+    color: #D85A34 !important;
+}
+
+.text-secondary{
+    color: #3A468C !important;
+}
+
+.text-muted{
+    color: #a0a2a3 !important; 
+}
+
+.text-muted:hover{
+    color: #828485 !important;
+}
+
+.btn-secondary:hover{
+    background-color: #3A468C !important;
+    border-color: #3A468C !important;
+}

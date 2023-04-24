@@ -40,3 +40,26 @@ a {
         height: 300px;
     }
 }
+
+a.nav-link:hover {
+    box-shadow: 0 2px #3A468C !important;
+}
+
+ul.nav-pill >.nav-item > .active{
+    box-shadow: 0 2px #3A468C !important;
+    color: #3A468a !important;
+}
+
+ul.nav-pill >.nav-item >.nav-link{
+    color: #a0a2a3;
+    box-shadow: 0 1px #a0a2a3;
+}
+
+ul.nav-pill >.nav-item >.nav-link:hover{
+    color: #828485;
+    box-shadow: 0 2px #a0a2a3;
+}
+
+nav{
+    box-shadow: 0 1px 5px #a0a2a3;
+}
