@@ -68,11 +68,15 @@ nav .span-border-text{
     text-shadow: -1px 0 #3A468C, 0 1px #3A468C, 1px 0 #3A468C, 0 -1px #3A468C;
 }
 
-.cropped-img{
-    width: 100%;
-    height: 25vw;
-    object-fit: cover;
+
+@media (min-width: 768px) {
+    .cropped-img{
+        width: 100%;
+        height: 25vw;
+        object-fit: cover;
+    }
 }
+
 
 .carousel-img{
     width: 100%;
