@@ -1,3 +1,42 @@
+nav img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    nav img {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav img {
+        max-width: 30%;
+    }
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
 a {
     color: white !important;
+}
+
+.box {
+    margin: 0 auto;
+}
+
+.local {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .mapa {
+        width: 300px;
+        height: 300px;
+    }
 }
