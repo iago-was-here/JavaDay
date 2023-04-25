@@ -83,3 +83,7 @@ nav .span-border-text{
     height: 40vw;
     object-fit: cover;
 }
+
+.btn-round{
+    border-radius: 50%;
+}
